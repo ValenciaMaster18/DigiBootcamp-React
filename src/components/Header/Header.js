@@ -16,7 +16,7 @@ function Header() {
                 <img src={img} alt=""/>
                 <span>DIGIBOOTCAMP</span>
             </picture>
-            <nav className="{`header__nav ${menuOpen ? '' : 'header__nav--mobile-hidden'}`}">
+            <nav className={`header__nav ${menuOpen ? "" : "header__nav--mobile-hidden"}`}>
                 <ul>
                     <li>
                         <a href="#">
@@ -41,7 +41,7 @@ function Header() {
                 </ul>
             </nav>
             <div className="header__btn">
-                <button className="button__sesion">
+                <button className="button__sesion animate__animated animate__bounceInRight">
                     INICIAR SESION
                 </button>
                 <button className="button__menu" onClick={handleMenuButtonClick}> 
