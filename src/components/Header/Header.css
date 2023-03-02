@@ -1,0 +1,156 @@
+/* Style contenedor del header la pagina */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 50px;
+    /* background-color: aquamarine; */
+}
+
+/* Style logo del header */
+.header__logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__logo img{
+    width: 100px;
+    height: 80%;
+}
+.header__logo span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+}
+/* <> */
+
+/* Style nav del header */
+.header__nav{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    /* background-color: red; */
+    z-index: 20;
+    width: 250px;
+    height: 300px;
+    display: flex;
+}
+.header__nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    list-style: none;
+}
+.header__nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    position: relative;
+    /* font-weight: 600; */
+}
+.header__nav ul li a::before{
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: width 0.5s ease-in;
+}
+.header__nav ul li a:hover:before{
+    width: 100%;
+    background-color: black;
+}
+
+.header__nav--mobile-hidden {
+    display: none;
+}
+
+/* Style boton del header */
+.header__btn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header__btn .button__sesion{
+    display: none;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 25px;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    background-color: black;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 250ms;
+    z-index: 10;
+}
+.header__btn .button__sesion::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 350ms
+}
+.header__btn .button__sesion:hover:before{
+    width: 100%;
+    background-color: #0079C4;
+}
+.button__menu{
+    padding: 0 16px;
+    color: black;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 300ms ease-in;
+}
+.button__menu:hover{
+    transform: translateY(-2px);
+}
+.button__menu:active{
+    transform: translateY(2px);
+}
+@media screen and (min-width: 992px) {
+    header{
+        justify-content: space-around;
+        padding: 0;
+    }
+    .header__nav{
+        display: flex !important;
+        position: sticky;
+        width: auto;
+        height: 100%;
+    }
+    .header__nav ul{
+        flex-direction: row;
+        /* background-color: aqua; */
+    }
+    .header__btn .button__sesion{
+        display: block;
+    }
+    .button__menu{
+        display: none;
+    }
+}
