@@ -25,17 +25,17 @@ function Header() {
                     </li>
                     <li>
                         <a href="#">
-                            CAMPAMENTO
+                            ABOUT
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            BOOTCAMPS
+                            SERVICES
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            BOLETIN
+                            CONTACT
                         </a>
                     </li>
                 </ul>

@@ -29,6 +29,8 @@ section{
     padding: 17px 31px;
     border: 0;
     border-radius: 10px;
+    cursor: pointer;
+    /* transition: background-color 1s ease-in; */
 }
 
 .portada__img{
@@ -58,7 +60,7 @@ section{
 .portada__img .img__btn button{
     text-align: start;
     /* width: 40%; */
-    width: 300px;
+    width: 280px;
     margin-top: 16px;
     padding: 15px 22px 15px 15px;
     border: 0;
@@ -68,6 +70,11 @@ section{
     font-size: 17px;
     font-weight: 600;
     box-shadow: 4px 8px 19px -5px black;
+    cursor: pointer;
+    transition: transform 250ms ease-in;
+}
+.portada__img .img__btn button:hover{
+    transform: translateY(-3px);
 }
 .portada__img .img__btn button .img__time{
     margin-right: 8px;
