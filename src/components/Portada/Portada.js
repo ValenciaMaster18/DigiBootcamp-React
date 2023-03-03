@@ -1,15 +1,11 @@
 import "./Portada.css";
-// <>
 // Importamos el git de la portada
 import people from "../../assets/img/peoplePortada.jpeg"
 import time from "../../assets/img/time.svg"
 import edit from "../../assets/img/edit.svg"
 import buys from "../../assets/img/buy.svg"
 
-
-
-
-function Portada() {
+export function Portada() {
     return (
         <section>
             <div className="portada__text">
@@ -44,4 +40,3 @@ function Portada() {
         </section>
     );
 }
-export default Portada;

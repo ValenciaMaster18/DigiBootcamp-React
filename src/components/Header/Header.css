@@ -88,7 +88,7 @@ header{
 .header__btn .button__sesion{
     display: none;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 15px 25px;
     color: white;
     font-size: 15px;
@@ -110,7 +110,7 @@ header{
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: all 350ms
 }
