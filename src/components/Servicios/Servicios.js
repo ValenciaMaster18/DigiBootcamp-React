@@ -1,6 +1,10 @@
 import "./Servicios.css";
 
 import webIcon from "../../assets/img/servicios/iconoweb.png";
+import Pythoncon from "../../assets/img/servicios/iconopython.png";
+import CiberIcon from "../../assets/img/servicios/iconociber.png";
+import PcIcon from "../../assets/img/servicios/bootcamp_imagen.png";
+
 
 export function Servicios() {
     return (
@@ -32,71 +36,71 @@ export function Servicios() {
                 </div>
                 <div className="card">
                     <picture className="card__img">
-                        <img src={webIcon} alt="..." />
+                        <img src={Pythoncon} alt="..." />
                     </picture>
                     <div className="card__body">
                         <div className="card__title">
-                            <h1>Frond End</h1>
-                            <span>Fabian Florian</span>
+                            <h1>Analitica De Datos</h1>
+                            <span>Oscar Gonzales</span>
                         </div>
                         <p className="card__text">
-                            Diseño y desarrollo de interfaces web
+                            Python simplifica análisis de datos.
                         </p>
                     </div>
                 </div>
                 <div className="card">
                     <picture className="card__img">
-                        <img src={webIcon} alt="..." />
+                        <img src={CiberIcon} alt="..." />
                     </picture>
                     <div className="card__body">
                         <div className="card__title">
-                            <h1>Frond End</h1>
-                            <span>Fabian Florian</span>
+                            <h1>Ciberseguridad</h1>
+                            <span>Eduardo Ramirez</span>
                         </div>
                         <p className="card__text">
-                            Diseño y desarrollo de interfaces web
+                            Seguridad cibernética es crítica.
                         </p>
                     </div>
                 </div>
                 <div className="card">
                     <picture className="card__img">
-                        <img src={webIcon} alt="..." />
+                        <img src={PcIcon} alt="..." />
                     </picture>
                     <div className="card__body">
                         <div className="card__title">
-                            <h1>Frond End</h1>
-                            <span>Fabian Florian</span>
+                            <h1>Microsoft Power Bi</h1>
+                            <span>Luis Valencia</span>
                         </div>
                         <p className="card__text">
-                            Diseño y desarrollo de interfaces web
+                            Power BI simplifica visualización datos.
                         </p>
                     </div>
                 </div>
                 <div className="card">
                     <picture className="card__img">
-                        <img src={webIcon} alt="..." />
+                        <img src={CiberIcon} alt="..." />
                     </picture>
                     <div className="card__body">
                         <div className="card__title">
-                            <h1>Frond End</h1>
-                            <span>Fabian Florian</span>
+                            <h1>Ciberseguridad Con Azure</h1>
+                            <span>Cristian Porrety</span>
                         </div>
                         <p className="card__text">
-                            Diseño y desarrollo de interfaces web
+                            Azure protege datos confidenciales.
                         </p>
                     </div>
                 </div>
                 <div className="card">
                     <picture className="card__img">
-                        <img src={webIcon} alt="..." />
+                        <img src={Pythoncon} alt="..." />
                     </picture>
                     <div className="card__body">
                         <div className="card__title">
-                            <h1>Frond End</h1>
-                            <span>Fabian Florian</span>
+                            <h1>Inteligencia Artifical</h1>
+                            <span>Oscar Gonzales</span>
                         </div>
                         <p className="card__text">
-                            Diseño y desarrollo de interfaces web
+                            Azure potencia IA con Python seguro.
                         </p>
                     </div>
                 </div>
