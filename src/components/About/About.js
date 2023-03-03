@@ -6,7 +6,7 @@ export function About(){
             <div className="about__text">
                 <div className="about__title">
                     <h2>
-                        SOBRE NOSOTROS
+                        SOBRE NUESTROS BOOTCAMPS
                     </h2>
                 </div>
                 <div className="about__parrafo">
