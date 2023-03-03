@@ -11,7 +11,7 @@ header{
     align-items: center;
     position: relative;
     padding: 0 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background-color: aquamarine; */
 }
 
@@ -39,7 +39,7 @@ header{
     top: 100%;
     right: 0;
     background-color: white;
-    z-index: 20;
+    z-index: 50;
     width: 250px;
     height: 300px;
     display: flex;
