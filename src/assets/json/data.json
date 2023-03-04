@@ -1,0 +1,42 @@
+[
+    {
+        "titulo": "Frond End",
+        "profeseor": "Fabian Florean",
+        "description": "Diseño y desarrollo de interfaces web"
+    },
+    {
+        "titulo": "Analitica De Datos",
+        "profeseor": "Oscar Gonzales",
+        "description": "Python simplifica análisis de datos."
+    },
+    {
+        "titulo": "Ciberseguridad",
+        "profeseor": "Eduardo Ramirez",
+        "description": "Seguridad cibernética es crítica."
+    },
+    {
+        "titulo": "Ciberseguridad Con Azure",
+        "profeseor": "Cristian Porrety",
+        "description": "Azure protege datos confidenciales."
+    },
+    {
+        "titulo": "Inteligencia Artifical",
+        "profeseor": "Oscar Gonzales",
+        "description": "Azure potencia IA con Python seguro."
+    },
+    {
+        "titulo": "Frond End",
+        "profeseor": "Fabian Florean",
+        "description": "Diseño y desarrollo de interfaces web"
+    },
+    {
+        "titulo": "Frond End",
+        "profeseor": "Fabian Florean",
+        "description": "Diseño y desarrollo de interfaces web"
+    },
+    {
+        "titulo": "Frond End",
+        "profeseor": "Fabian Florean",
+        "description": "Diseño y desarrollo de interfaces web"
+    }
+]

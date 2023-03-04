@@ -4,6 +4,8 @@ import "./home.css";
 import { Portada } from "../../components/Portada/Portada";
 import { About } from "../../components/About/About";
 import { Servicios } from "../../components/Servicios/Servicios";
+import { Contact } from "../../components/Contact/Contact";
+
 
 // Creamos el componente
 function Home(){
@@ -12,6 +14,7 @@ function Home(){
             <Portada /> 
             <About /> 
             <Servicios />
+            <Contact />
         </main>
     )
 }
