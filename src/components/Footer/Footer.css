@@ -1,0 +1,16 @@
+footer {
+    background-color: #111526;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div{
+    color: white;
+    display: flex;
+    gap: 5px;
+}
+footer div a{
+    color: white;
+    text-decoration: none;
+}

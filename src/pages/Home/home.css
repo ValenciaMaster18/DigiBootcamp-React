@@ -9,7 +9,7 @@ main .home__button{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    /* background-color: aqua; */
+    background-color: transparent;
     width: 60px;
     height: 60px;
     display: flex;
@@ -17,6 +17,7 @@ main .home__button{
     justify-content: center;
 }
 .home__button button{
+    background-color: transparent;
     width: 80%;
     height: 80%;
     font-size: 30px;
