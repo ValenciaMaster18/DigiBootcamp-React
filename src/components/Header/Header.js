@@ -11,7 +11,7 @@ export function Header() {
         setMenuOpen(!menuOpen);
     }
     return (
-        <header>
+        <header id="header">
             <picture className="header__logo">
                 <img src={img} alt=""/>
                 <span>DIGIBOOTCAMP</span>

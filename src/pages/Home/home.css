@@ -1,6 +1,32 @@
 main{
     position: relative;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-main button{
-    background-color: aqua;
+main .home__button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* background-color: aqua; */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home__button button{
+    width: 80%;
+    height: 80%;
+    font-size: 30px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    transition: transform 500ms ease-in;
+}
+.home__button button:hover{
+    transform: translateY(-5px);
 }

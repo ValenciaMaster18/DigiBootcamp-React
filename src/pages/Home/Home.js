@@ -18,9 +18,15 @@ function Home(){
             <About /> 
             <Servicios />
             <Contact />
-            <button className="button">
-                <FaArrowUp />
-            </button>
+            <div className="home__button">
+                <a href="#header">
+                    <button className="button__subir">
+                        <FaArrowUp />
+                    </button>
+                </a>
+
+            </div>
+
         </main>
     )
 }
