@@ -2,7 +2,7 @@ import "./Contact.css";
 import imgContact from "../../assets/img/imgContact.jpg";
 export function Contact() {
     return (
-        <section className="contact">
+        <section id="contact" className="contact">
             <div className="contact__title">
                 <h2>CONTACTATE CON DIGIBOOTCAMP</h2>
             </div>

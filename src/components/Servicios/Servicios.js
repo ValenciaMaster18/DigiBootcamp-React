@@ -8,7 +8,7 @@ import PcIcon from "../../assets/img/servicios/bootcamp_imagen.png";
 
 export function Servicios() {
     return (
-        <section className="services">
+        <section id="services" className="services">
             <div className="services__text">
                 <div className="services__title">
                     <h2>NUESTROS SERVICIOS DE BOOTCAMPS</h2>

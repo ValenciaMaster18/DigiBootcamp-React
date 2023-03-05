@@ -4,7 +4,7 @@ import menu from "../../assets/img/menu.svg";
 
 import { useState } from 'react';
 
-function Header() {
+export function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     function handleMenuButtonClick(){
@@ -24,17 +24,17 @@ function Header() {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#about">
                             ABOUT
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#services">
                             SERVICES
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#contact">
                             CONTACT
                         </a>
                     </li>
@@ -51,5 +51,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;
