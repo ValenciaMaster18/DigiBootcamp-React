@@ -1,0 +1,79 @@
+section.gallery{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gallery__title span{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.gallery__title h2{
+    text-align: center;
+}
+.gallery__img{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
+    gap: 16px;
+}
+.gallery__img picture{
+    height: 300px;
+    position: relative;
+}
+.gallery__img picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    /* box-shadow: 4px 8px 19px -3px; */
+}
+.gallery__img picture img:hover{
+    cursor: pointer;
+}
+.gallery__img picture:nth-child(1):after{
+    content: "Metodologias Agiles";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: #edf2f439;
+    clip-path: circle(0 at top right);
+    transition: clip-path 150ms;
+}
+.gallery__img picture:nth-child(2):after{
+    content: "Power Bi";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: #edf2f439;
+    clip-path: circle(0 at top right);
+    transition: clip-path 150ms;
+}
+.gallery__img picture:hover::after{
+    clip-path: circle(150% at top right);
+}
+@media screen and (min-width: 768px) {
+    .gallery__img{
+        /* background-color: aquamarine; */
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+    }
+}

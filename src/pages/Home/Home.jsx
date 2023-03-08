@@ -5,6 +5,7 @@ import { Header } from "../../components/Header/Header";
 import { Portada } from "../../components/Portada/Portada";
 import { About } from "../../components/About/About";
 import { Servicios } from "../../components/Servicios/Servicios";
+import { Gallery } from "../../components/Gallery/Gallery";
 import { Contact } from "../../components/Contact/Contact";
 import { Footer } from "../../components/Footer/Footer";
 // Para trbajar con iconos de react (https://react-icons.github.io/react-icons/icons?name=fa)
@@ -18,6 +19,7 @@ function Home(){
             <Portada /> 
             <About /> 
             <Servicios />
+            <Gallery />
             <Contact />
             <Footer />
             <div className="home__button">

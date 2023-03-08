@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "titulo": "Metodologias Agiles",
+        "img": "../img/gallery/metodologiaAgiles.jpeg"
+    },
+    {
+        "id": 2,
+        "titulo": "powerBi",
+        "img": "../img/gallery/powerBi.jpg"
+    }
+]
